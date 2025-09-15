@@ -16,7 +16,7 @@ int find(int a[], int n, int key)
 ///////////////////////////////
 int main()
 {
-    int a[] = {19, 20, 13, 20, 6, 14}; // Each integer allocates 4 bite of memory
+    int a[] = {19, 20, 13, 20, 6, 14}; // Each integer allocates 4 byte of memory
 
     int n;
     n=sizeof(a)/sizeof(a[0]);
